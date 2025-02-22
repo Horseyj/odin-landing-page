@@ -84,13 +84,12 @@ h1 {
     gap:8px;
 }
 
-button {
+.button-primary {
     background-color:#3882F6;
     color:#F9FAF8;
     padding: 6px 24px;
     border-radius:6px;
-    border-width:0;
-    border-color:none;
+    border-style:none;
     box-sizing:border-box;
     flex-shrink:0;
 }
@@ -194,6 +193,16 @@ button {
     /* border-radius:6px; */
     border-width:2px;
     border-color:#F9FAF8;
+}
+
+.button-secondary {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    padding: 6px 24px;
+    border-radius:6px;
+    border-style:solid;
+    border-color:#F9FAF8;
+    flex-shrink:0;
 }
 
 /* Calltoaction section END */
