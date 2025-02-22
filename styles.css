@@ -1,0 +1,61 @@
+/* Landing page index page */
+
+body {
+    font-family:"roboto",serif;
+    display:flex;
+    flex-direction:column;
+}
+
+.header,
+.hero,
+.information-section,
+.testimonial-section,
+.calltoaction-section,
+.footer {
+    padding: 0 64px
+}
+
+.hero,
+.footer,
+.header {
+    background-color:#1F2937;
+}
+
+h1 {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900
+}
+
+.header,
+.footer {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#F9FAF8;
+}
+
+.hero {
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type:none;
+    display:flex;
+    gap:16px;
+}
+
+
+a{
+text-decoration:none;
+}
+
