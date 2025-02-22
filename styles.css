@@ -87,8 +87,8 @@ button {
 }
 
 .right-content {
-    background-color:grey;
-    color: #f9faf8;
+    background-color:#E5E7EB;
+    color:black;
     width:700px;
     height:200px;
     display:flex;
@@ -133,5 +133,34 @@ button {
 
 /* Information section END */
 
+/* Testimonial section START */
+.testimonial-section {
+    background-color:#E5E7EB;
+    padding-top:32px;
+    padding-bottom:32px;
+}
+
+.modal {
+    padding: 32px 96px;
+    /* background-color:red; */
+}
+.container {
+    /* border-style:solid; */
+}
+
+.quote {
+    font-size:24px;
+    font-style:italic;
+    color:#1F2937;
+    padding-bottom:8px;
+}
+
+.quote-name {
+    font-weight:700;
+    text-align:end;
+    /* border-style:solid; */
+}
+
+/* Tesitmonial section END */
 
 
