@@ -6,6 +6,28 @@ body {
     flex-direction:column;
 }
 
+/* Small nits START */
+h1,
+p,
+ul {
+    padding:0;
+    margin:0;
+}
+
+ul {
+    list-style-type:none;
+    display:flex;
+    gap:16px;
+}
+
+
+a{
+text-decoration:none;
+}
+/* Small nits END */
+
+
+
 .header,
 .hero,
 .information-section,
@@ -21,10 +43,12 @@ body {
     background-color:#1F2937;
 }
 
+
 h1 {
     font-size:48px;
     color:#F9FAF8;
-    font-weight:900
+    font-weight:900;
+    line-height:normal;
 }
 
 .header,
@@ -33,29 +57,51 @@ h1 {
     justify-content:space-between;
     align-items:center;
     color:#F9FAF8;
+    padding-top: 16px;
+    padding-bottom:16px; 
 }
 
+
+/* Hero section START */
 .hero {
     display:flex;
+    padding:64px;
+    gap:64px;
 }
 
-
-
-
-
-
-
-
-
-
-ul {
-    list-style-type:none;
+.left-content {
     display:flex;
-    gap:16px;
+    flex-direction:column;
+    align-items:flex-start;
+    width:700px;
+    gap:8px;
+
+}
+
+button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    padding: 6px 24px;
+    border-radius:6px;
+    border-width:0;
+}
+
+.right-content {
+    background-color:grey;
+    color: #f9faf8;
+    width:700px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+/* Hero section END */
+
+.information-section {
+
 }
 
 
-a{
-text-decoration:none;
-}
+
+
 
